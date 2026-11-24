@@ -94,7 +94,15 @@ pip install -r requirements.txt
 
 ---
 
-## 7. Run the Application with Uvicorn
+## 7. Install Uvicorn
+
+```bash
+pip install uvicorn
+```
+
+---
+
+## 8. Run the Application with Uvicorn
 
 ### Option A: Run in the Foreground for Testing
 
@@ -119,7 +127,7 @@ nohup uvicorn main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &
 
 ---
 
-## 8. Test in Browser
+## 9. Test in Browser
 
 Open the following URLs in a browser. Replace `<YOUR_AZURE_PUBLIC_IP>` with the VM's public IP address:
 
